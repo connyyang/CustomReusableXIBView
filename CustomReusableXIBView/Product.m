@@ -10,4 +10,11 @@
 
 @implementation Product
 
+-(void)init:(char) productID:(char) productName:(float) productPrice
+{
+    self.productID = productID;
+    self.productName = productName;
+    self.productPrice = productPrice;
+}
+
 @end

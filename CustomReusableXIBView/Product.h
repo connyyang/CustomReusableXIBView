@@ -10,8 +10,14 @@
 
 @interface Product : NSObject
 {
+    char productID;
     char productName;
     float productPrice;
+    
+    
 }
+@property (nonatomic, retain) char productID, productName;
+@property (nonatomic, retain) float productPrice;
+-(void)init:(char) productID:(char) productName:(float) productPrice;
 
 @end
