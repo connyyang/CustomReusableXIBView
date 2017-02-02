@@ -13,6 +13,8 @@
 		AEB1C1BB1E42ABF700C992A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB1C1B91E42ABF700C992A4 /* Main.storyboard */; };
 		AEB1C1BD1E42ABF700C992A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB1C1BC1E42ABF700C992A4 /* Assets.xcassets */; };
 		AEB1C1C01E42ABF700C992A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB1C1BE1E42ABF700C992A4 /* LaunchScreen.storyboard */; };
+		AEB1C1C91E42B38F00C992A4 /* ShoppingCountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB1C1C81E42B38F00C992A4 /* ShoppingCountViewController.m */; };
+		AEB1C1CB1E42B3A200C992A4 /* ShoppingCount.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEB1C1CA1E42B3A200C992A4 /* ShoppingCount.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		AEB1C1BC1E42ABF700C992A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEB1C1BF1E42ABF700C992A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEB1C1C11E42ABF700C992A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEB1C1C71E42B38F00C992A4 /* ShoppingCountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCountViewController.h; sourceTree = "<group>"; };
+		AEB1C1C81E42B38F00C992A4 /* ShoppingCountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCountViewController.m; sourceTree = "<group>"; };
+		AEB1C1CA1E42B3A200C992A4 /* ShoppingCount.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShoppingCount.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,9 @@
 				AEB1C1B61E42ABF700C992A4 /* ViewController.h */,
 				AEB1C1B71E42ABF700C992A4 /* ViewController.m */,
 				AEB1C1B91E42ABF700C992A4 /* Main.storyboard */,
+				AEB1C1C71E42B38F00C992A4 /* ShoppingCountViewController.h */,
+				AEB1C1CA1E42B3A200C992A4 /* ShoppingCount.xib */,
+				AEB1C1C81E42B38F00C992A4 /* ShoppingCountViewController.m */,
 				AEB1C1BC1E42ABF700C992A4 /* Assets.xcassets */,
 				AEB1C1BE1E42ABF700C992A4 /* LaunchScreen.storyboard */,
 				AEB1C1C11E42ABF700C992A4 /* Info.plist */,
@@ -140,6 +148,7 @@
 				AEB1C1C01E42ABF700C992A4 /* LaunchScreen.storyboard in Resources */,
 				AEB1C1BD1E42ABF700C992A4 /* Assets.xcassets in Resources */,
 				AEB1C1BB1E42ABF700C992A4 /* Main.storyboard in Resources */,
+				AEB1C1CB1E42B3A200C992A4 /* ShoppingCount.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEB1C1C91E42B38F00C992A4 /* ShoppingCountViewController.m in Sources */,
 				AEB1C1B81E42ABF700C992A4 /* ViewController.m in Sources */,
 				AEB1C1B51E42ABF700C992A4 /* AppDelegate.m in Sources */,
 				AEB1C1B21E42ABF700C992A4 /* main.m in Sources */,
