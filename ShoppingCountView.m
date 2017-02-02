@@ -27,10 +27,15 @@
         
         // add subview
         [self addSubview:self.shoppingStepperView];
+        
+        NSInteger initQty = self.qtyStepper.value;
+        self.qtyLabel.text = [NSString stringWithFormat:@"%02d",initQty];
     }
     return self;
 }
 
-- (IBAction)changeQtyStepper:(id)sender {
+- (IBAction)changeQtyStepper:(UIStepper *)sender {
+    NSInteger qty = sender.value;
+    self.qtyLabel.text = [NSString stringWithFormat:@"%02d",qty];
 }
 @end

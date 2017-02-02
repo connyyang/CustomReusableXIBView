@@ -13,6 +13,8 @@
 
 - (IBAction)changeQtyStepper:(id)sender;
 
+@property (weak, nonatomic) IBOutlet UIStepper *qtyStepper;
+
 @property (strong, nonatomic) IBOutlet UIView *shoppingStepperView;
 
 @end
