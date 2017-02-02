@@ -17,6 +17,7 @@
 		AEB1C1CB1E42B3A200C992A4 /* ShoppingCount.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEB1C1CA1E42B3A200C992A4 /* ShoppingCount.xib */; };
 		AEB1C1CE1E42B81500C992A4 /* ShoppingCountView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB1C1CD1E42B81500C992A4 /* ShoppingCountView.m */; };
 		AEB1C1D01E42B83A00C992A4 /* ShoppingCountView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEB1C1CF1E42B83A00C992A4 /* ShoppingCountView.xib */; };
+		AEB1C1D31E42CC6F00C992A4 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB1C1D21E42CC6F00C992A4 /* Product.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		AEB1C1CC1E42B81500C992A4 /* ShoppingCountView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShoppingCountView.h; path = ../ShoppingCountView.h; sourceTree = "<group>"; };
 		AEB1C1CD1E42B81500C992A4 /* ShoppingCountView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShoppingCountView.m; path = ../ShoppingCountView.m; sourceTree = "<group>"; };
 		AEB1C1CF1E42B83A00C992A4 /* ShoppingCountView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ShoppingCountView.xib; path = ../ShoppingCountView.xib; sourceTree = "<group>"; };
+		AEB1C1D11E42CC6F00C992A4 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		AEB1C1D21E42CC6F00C992A4 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,14 +71,11 @@
 		AEB1C1AF1E42ABF700C992A4 /* CustomReusableXIBView */ = {
 			isa = PBXGroup;
 			children = (
-				AEB1C1CF1E42B83A00C992A4 /* ShoppingCountView.xib */,
-				AEB1C1CC1E42B81500C992A4 /* ShoppingCountView.h */,
-				AEB1C1CD1E42B81500C992A4 /* ShoppingCountView.m */,
+				AEB1C1D61E42CD4700C992A4 /* View */,
+				AEB1C1D51E42CD2B00C992A4 /* Controller */,
+				AEB1C1D41E42CD1300C992A4 /* Model */,
 				AEB1C1B31E42ABF700C992A4 /* AppDelegate.h */,
 				AEB1C1B41E42ABF700C992A4 /* AppDelegate.m */,
-				AEB1C1B61E42ABF700C992A4 /* ViewController.h */,
-				AEB1C1B71E42ABF700C992A4 /* ViewController.m */,
-				AEB1C1B91E42ABF700C992A4 /* Main.storyboard */,
 				AEB1C1C71E42B38F00C992A4 /* ShoppingCountViewController.h */,
 				AEB1C1CA1E42B3A200C992A4 /* ShoppingCount.xib */,
 				AEB1C1C81E42B38F00C992A4 /* ShoppingCountViewController.m */,
@@ -93,6 +93,35 @@
 				AEB1C1B11E42ABF700C992A4 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEB1C1D41E42CD1300C992A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AEB1C1D11E42CC6F00C992A4 /* Product.h */,
+				AEB1C1D21E42CC6F00C992A4 /* Product.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AEB1C1D51E42CD2B00C992A4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AEB1C1B61E42ABF700C992A4 /* ViewController.h */,
+				AEB1C1B71E42ABF700C992A4 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		AEB1C1D61E42CD4700C992A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AEB1C1CF1E42B83A00C992A4 /* ShoppingCountView.xib */,
+				AEB1C1B91E42ABF700C992A4 /* Main.storyboard */,
+				AEB1C1CC1E42B81500C992A4 /* ShoppingCountView.h */,
+				AEB1C1CD1E42B81500C992A4 /* ShoppingCountView.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +200,7 @@
 				AEB1C1C91E42B38F00C992A4 /* ShoppingCountViewController.m in Sources */,
 				AEB1C1B81E42ABF700C992A4 /* ViewController.m in Sources */,
 				AEB1C1B51E42ABF700C992A4 /* AppDelegate.m in Sources */,
+				AEB1C1D31E42CC6F00C992A4 /* Product.m in Sources */,
 				AEB1C1CE1E42B81500C992A4 /* ShoppingCountView.m in Sources */,
 				AEB1C1B21E42ABF700C992A4 /* main.m in Sources */,
 			);
