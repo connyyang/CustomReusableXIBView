@@ -22,6 +22,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [[NSBundle mainBundle]loadNibNamed:@"ShoppingCount" owner:self options:nil];
+  
 }
 
 - (void)didReceiveMemoryWarning {
